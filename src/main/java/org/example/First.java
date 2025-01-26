@@ -33,10 +33,9 @@ public class First {
                 String course = resultSet.getString("course");
                 System.out.println("ID: " + id + " Name: " + name + " Course: " + course);
             }
-
             // Close the connection
             connection.close();
-        } catch (Exception e) {
+        } catch (Exception e) {  //catch block code
             e.printStackTrace();
         }
     }
